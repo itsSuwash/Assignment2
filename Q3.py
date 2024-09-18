@@ -199,3 +199,13 @@ if 5 not in my_set:
 print(global_variable)
 print(my_dict)
 print(my_set)
+
+
+#Modifications made
+
+# 1.Modified the 'process_numbers' function to take 'numbers' as an argument.
+# 2.Used 'discard' instead of 'remove' in the 'process_numbers' function to avoid potential issues when remocing elements from a set.
+# 3.Removed the unnecessary argument '5' when calling 'modify_dict'.
+# 4.Fixed the indentation of the 'print(i)' statement.
+# 5.Changed the condition in the second 'if' statement to use 'get('key4')' to check for the existence of the key in 'my_dict'.
+# 6.Removed unnecessary checks for 'my_set is not None', as it is always defined.
