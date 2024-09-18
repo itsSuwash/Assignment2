@@ -25,7 +25,7 @@ def count_and_display_top_tokens(file_path, model_name, max_sequence_length=512,
         print(f"{word}: {count}")
 
 # Example usage
-file_path = r'/Users/suwashch/Documents/Assignment 2\output1.txt'  # Replace with the path to your text file
+file_path = r'/Users/suwashch/Documents/Assignment 2/output1.txt'  # Replace with the path to your text file
 
 model_name = 'bert-base-uncased'  # Replace with the desired transformer model
 count_and_display_top_tokens(file_path, model_name)
