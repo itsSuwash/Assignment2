@@ -50,7 +50,7 @@ def compare_ner_results(text, spacy_model_name, biobert_model_name):
     print(f"Entities unique to BioBERT: {len(unique_entities_biobert)}")
 
     
-    print("\nMost common words for spaCy:")
+    print("\nMost common words for spaCY:")
     counter_spacy = Counter(entities_spacy)
     for word, count in counter_spacy.most_common(10):
         print(f"{word}: {count}")
